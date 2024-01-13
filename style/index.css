@@ -14,11 +14,13 @@ body {
     margin: 0;
     padding: 0;
 }
+/* hader related style start*/
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -50,4 +52,16 @@ nav a{
     border: 0;
     font-size: 20px;
     font-weight: 700;
+}
+.header_bg{
+    background-color: #FFF8F3 ;
+}
+.banner {
+    padding: 30px 30px 300px 200px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .b-image{
+    width: 500px;
 }
