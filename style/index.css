@@ -1,0 +1,53 @@
+/* primare color */
+:root{
+    --orange: #FD6E0A;
+    
+}
+ /* common font style */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-title > span{
+    color: var(--orange);
+}
+nav > ul{
+    display: flex;
+    align-items: baseline;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #181818;
+}
+.btn{
+    color: wheat;
+    background: var(--orange);
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
